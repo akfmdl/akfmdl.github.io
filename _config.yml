@@ -42,7 +42,7 @@ disqus_shortname:   taylantatli
 #facebook:           username
 github-url:         akfmdl
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          username
 #xing:              username
 #instagram:          username
 #lastfm:            username
@@ -52,7 +52,7 @@ github-url:         akfmdl
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-#youtube:           username
+youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
