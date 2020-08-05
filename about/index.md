@@ -36,7 +36,11 @@ Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?
 To see projects i've worked press the button below.
       
 [Github](https://akfmdl.github.io//projects){: .btn}
-[Linkedin](https://www.linkedin.com/in/%EA%B3%A0%EC%9D%80-%EA%B9%80-76a976178/){: .btn}
+
+## Instructions
+
+To see my video instructions about programming and deep learning press the button below.
+[Youtube](https://www.youtube.com/channel/UCNdk6BMd8bTtCpngkBxA4ow){: .btn}
 
 ## Email
 akfmdl@naver.com
