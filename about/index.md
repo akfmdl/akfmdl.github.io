@@ -22,9 +22,9 @@ comments: false
 
 {% capture images %}
     https://user-images.githubusercontent.com/31917080/89377307-7635ed80-d72c-11ea-87e3-b86ce28883dc.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    https://user-images.githubusercontent.com/31917080/89378154-353ed880-d72e-11ea-94cc-9cbece2056cc.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images caption="preview of goeunkim" cols=2 %}
 
 Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?hl=ko) to see who i am.
 
@@ -35,4 +35,7 @@ Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?
 To see projects i've worked press the button below.
       
 [Github](https://akfmdl.github.io//projects){: .btn}
-[linkedin](https://www.linkedin.com/in/%EA%B3%A0%EC%9D%80-%EA%B9%80-76a976178/){: .btn}
+[Linkedin](https://www.linkedin.com/in/%EA%B3%A0%EC%9D%80-%EA%B9%80-76a976178/){: .btn}
+
+## Email
+akfmdl@naver.com
