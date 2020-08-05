@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Theme
+title: Goeun Kim
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
@@ -30,8 +30,10 @@ comments: false
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
-## Getting Started
+## Career
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+<!-- To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information. -->
+
+To see projects i've worked check out 'Project' by pressing the button below.
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[Project](https://akfmdl.github.io//projects){: .btn}
