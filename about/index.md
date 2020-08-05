@@ -17,6 +17,7 @@ comments: false
 * Programming languages : C++(main), C#, Python
 * Web : Flask, FastAPI
 * GUI : MFC(C++), WPF(C#)
+* Major : Electric engineering
 
 ## Preview
 
