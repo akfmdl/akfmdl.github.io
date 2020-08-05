@@ -4,7 +4,7 @@ bio:                'A software engineer with deep learning'
 description:        "The project lists regarding deep learning, python, c++, etc."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/gekim.jpg'
+logo:               https://user-images.githubusercontent.com/31917080/89379758-5523cb80-d731-11ea-93ab-1b4f249ac605.png
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
