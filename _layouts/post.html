@@ -26,6 +26,8 @@ layout: compress
                     {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">
+                    {% else if page.categories %}
+                    <a class="btn zoombtn" href="{{site.url}}/categories/">
                     {% else %}
                     <a class="btn zoombtn" href="{{site.url}}/posts/">
                     {% endif %}
