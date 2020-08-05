@@ -7,7 +7,7 @@ comments: false
 ---
     
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
-<center><b>Goeun Kim</b> is a softare engineer in South korea.</center>
+<center><b>Goeun Kim</b> is a softare engineer in south korea.</center>
 
 ## Careers
 * AI software(now)
@@ -22,7 +22,7 @@ comments: false
 
 {% capture images %}
     https://user-images.githubusercontent.com/31917080/89377307-7635ed80-d72c-11ea-87e3-b86ce28883dc.png
-    https://user-images.githubusercontent.com/31917080/89378154-353ed880-d72e-11ea-94cc-9cbece2056cc.png
+    https://user-images.githubusercontent.com/31917080/89379242-691afd80-d730-11ea-9e4a-6a5ec07f3f77.png
 {% endcapture %}
 {% include gallery images=images caption="preview of goeunkim" cols=2 %}
 
