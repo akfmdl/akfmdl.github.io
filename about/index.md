@@ -1,24 +1,22 @@
 ---
 layout: page
-title: Goeun Kim
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About myself
+tags: [about, goeunkim, software, ai]
+date: 2020-08-05
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
+<center><b>Goeun Kim</b> is a softare engineer in South korea.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Careers
+* AI software(now)
+* AI frameworks : Pytorch, Tensorflow, Keras
+* AI Platforms : AWS, Luwig, Allegro
+* Automotive embedded software for 4 years in visual inspection system
+* Programming languages : C++(main), C#, Python
+* Web : Flask, FastAPI
+* GUI : MFC(C++), WPF(C#)
 
 ## Preview
 
@@ -28,12 +26,13 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?hl=ko) to see who i am.
 
-## Career
+## Project
 
 <!-- To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information. -->
 
-To see projects i've worked check out 'Project' by pressing the button below.
+To see projects i've worked press the button below.
       
-[Project](https://akfmdl.github.io//projects){: .btn}
+[Github](https://akfmdl.github.io//projects){: .btn}
+[linkedin](https://www.linkedin.com/in/%EA%B3%A0%EC%9D%80-%EA%B9%80-76a976178/){: .btn}

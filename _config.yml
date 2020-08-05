@@ -4,7 +4,7 @@ bio:                'A software engineer with deep learning'
 description:        "The project lists regarding deep learning, python, c++, etc."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/gekim.jpg'
+logo:               https://user-images.githubusercontent.com/31917080/89377307-7635ed80-d72c-11ea-87e3-b86ce28883dc.png
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -42,9 +42,9 @@ disqus_shortname:   taylantatli
 #facebook:           username
 github-url:         akfmdl
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          고은-김-76a976178/
+linkedin:           고은-김-76a976178/
 #xing:              username
-#instagram:          username
+instagram:          fascinating_goni/?hl=ko
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
