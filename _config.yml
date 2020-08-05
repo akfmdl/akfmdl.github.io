@@ -1,7 +1,7 @@
 # Site
 title:              Goeun Kim
 bio:                'A software engineer with deep learning'
-description:        "The project lists regarding deep learning, python, c++, etc."
+description:        'deep learning, python, c++, etc.'
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/gekim.jpg'
