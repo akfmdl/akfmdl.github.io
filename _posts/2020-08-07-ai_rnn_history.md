@@ -2,8 +2,8 @@
 layout: post
 title:  "수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 1장"
 date:   2020-08-07
-excerpt: "LSTM의 탄생"
-feature: http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png
+excerpt: "RNN의 탄생"
+feature: https://cdn-images-1.medium.com/max/1600/1*NKhwsOYNUT5xU7Pyf6Znhg.png
 tag:
 - AI
 comments: true
@@ -37,5 +37,5 @@ RNN 덕분에 sequential data를 처리할수 있게 되었습니다. 그런데 
 그런데 이러한 단점을 극복하기 위해 RNN을 업그레이드 시킨 네트워크가 탄생했는데, 그것은 바로 다음 장에서 설명해드릴 <b>LSTM</b>입니다!
 
 ## Next
-'수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 2장' 에서는 LSTM에 대해 소개해드리겠습니다.
-[Next](https://akfmdl.github.io//ai_lstm_history/){: .btn}
+'수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 2장' 에서는 LSTM에 대해 소개해드리겠습니다.  
+go to -> [Next](https://akfmdl.github.io//ai_lstm_history/){: .btn}
