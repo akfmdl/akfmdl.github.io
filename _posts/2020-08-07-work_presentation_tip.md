@@ -5,7 +5,7 @@ date:   2020-08-07
 excerpt: "tips for a presentation"
 feature: https://staticylai.state.gov/uploads/sites/2/2018/07/thrivepresentation-720x520.jpg
 tag:
-- work
+- WORK
 comments: true
 ---
 제가 프리젠테이션을 잘해서 이 글을 쓰는 것은 아닙니다. 겸손이 아니고 사실입니다. 그냥 회사에서 종종 프리젠테이션을 할 일이 계속 생기고, 그때마다 느꼈던 점을 정리하기 위한 글이니 참고만 해주시기 바랍니다. 사실 저도 느낀것 뿐이지 본 내용대로 발표하진 않는답니다.

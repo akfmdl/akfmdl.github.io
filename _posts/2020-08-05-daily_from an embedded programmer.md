@@ -5,7 +5,7 @@ date:   2020-08-05
 excerpt: "becoming a deep-learning software engineer from an embedded programmer"
 feature: https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2018/11/introduction-4.png
 tag:
-- daily
+- DAILY
 comments: true
 ---
 저는 자동화 산업 분야에서 약 4년간 software engineer로 근무했습니다. 그 전에도 2년이라는 경력이 더 있지만 전혀 상관없는 분야에서 코딩이 좋다는 이유만으로 자동화 산업 분야로 이직했습니다.
