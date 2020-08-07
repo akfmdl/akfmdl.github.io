@@ -14,7 +14,7 @@ comments: true
 인간의 집중력은 20분이 한계라는 주장이 있습니다. 20분 정도 집중하면 두뇌가 버티는 힘이 떨어지면서 생각이 분산된다고 합니다. 물론 20분만에 못 끝내는 발표라면 어쩔 수 없지만, 집중력을 오래 유지시키려면 발표스킬이 중요하겠죠? 제가 느꼈던 발표하기 좋은 시간은 그 날 오전에 첫번째로 발표하는 겁니다. 점점 사람들의 집중력이 흐트러집니다. 특히 점심시간이 가까워지면 가까워질수록!
 
 <figure>
-	<a href="http://img.megastudy.net/study_v2/cast/cast_study_017_01.jpg"></a>
+	<a href="http://img.megastudy.net/study_v2/cast/cast_study_017_01.jpg"><img src="http://img.megastudy.net/study_v2/cast/cast_study_017_01.jpg"></a>
 </figure>
 
 ## 발표는 내용보다 스킬
