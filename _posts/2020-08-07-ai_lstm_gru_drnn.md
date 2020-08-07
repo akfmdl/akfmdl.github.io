@@ -8,4 +8,6 @@ tag:
 - ai
 comments: true
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ylIOZ8FQRMY" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ylIOZ8FQRMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+본 포스트는 위 동영상을 글로 요약한 버전입니다. 그리고 이 영상은 제 Youtube 채널에 있는 강의입니다.
