@@ -27,7 +27,7 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="preview of goeunkim" cols=2 %}
 
-Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?hl=ko) to see who i am.
+<!-- Send a follower request [Instagram](https://www.instagram.com/fascinating_goni/?hl=ko) to see who i am. -->
 
 ## Project
 
