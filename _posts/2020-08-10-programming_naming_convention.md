@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[프로그래머들을 위한] 네이밍 컨벤션(feat. 이름 짓기)"
+title:  "네이밍 컨벤션(feat. 변수명 잘짓기)"
 date:   2020-08-10
 excerpt: "Naming convention for programmers"
 feature: https://github.com/amueller/word_cloud/raw/master/examples/parrot_new.png
@@ -18,7 +18,7 @@ comments: true
   * 고유명사나 호칭을 가리킬 때 사용
   * 클래스가 프로그래밍에서 가장 주요하고 높은 위치에 있기 때문에 이 방식을 사용
   <figure>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CamelCase.svg/1280px-CamelCase.svg.png" width=200 height=200>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CamelCase.svg/1280px-CamelCase.svg.png" width=100 height=100>
   </figure>
 * lowerCamelCase
   * 이름에서도 알 수 있듯이 첫 문자는 소문자로 적고 다음부터는 대문자로 적는 기법  
