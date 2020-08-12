@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "개발자 글쓰기 컨벤션(feat. 글 잘쓰기)"
+title:  "글쓰기 컨벤션(feat. 글 잘쓰기)"
 date:   2020-08-12
 excerpt: "writing convention for programmers"
 feature: https://www.woodworkingnetwork.com/sites/woodworking/files/wunder-log-4.jpg
