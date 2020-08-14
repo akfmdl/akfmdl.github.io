@@ -61,9 +61,9 @@ tanh의 정식명칭은 Hyperbolic Tangent입니다. 이 함수 역시 sigmoid�
 
 어쨌든, LSTM은 이렇게 선택적으로 잊거나 저장하는 원리로 Vanishing gradient 문제를 극복할 수 있게 되는 겁니다. 
 
-## Before
+## Previous
 '수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 1장' 에는 LSTM의 조상인 RNN에 대한 설명이 있습니다.  
-go to -> [Before](https://akfmdl.github.io//ai_rnn_history){: .btn}
+go to -> [Previous](https://akfmdl.github.io//ai_rnn_history){: .btn}
 
 ## Next
 '수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 3장' 에서는 GRU와 DRNN에 대해 소개해드리겠습니다.  

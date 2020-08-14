@@ -65,5 +65,5 @@ https://tensorflow.blog/%EC%BC%80%EB%9D%BC%EC%8A%A4-%EB%94%A5%EB%9F%AC%EB%8B%9D/
 https://tech.dslab.kr/2019/09/27/doitdeeplearning-ch1/  
 
 ## Next
-'[딥러닝 입문자들을 위한] 선형 회귀' 에서는 선형 회귀와 경사 하강법의 관계를 알아보도록 하겠습니다.  
+다음은 선형 회귀와 경사 하강법의 관계를 알아보도록 하겠습니다.  
 go to -> [Next](https://akfmdl.github.io//ai_linear_regression){: .btn}

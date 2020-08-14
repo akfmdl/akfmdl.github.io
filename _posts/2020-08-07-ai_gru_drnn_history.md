@@ -45,6 +45,6 @@ DRNN도 이와 비슷한 이점을 얻을 수 있는데요.
 </figure>
 우린 '수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN)' 시리즈에서 RNN에 대한 내용을 공부했는데 어떠셨나요? 내용이 어려웠나요? 아무쪼록 여러분들에게 도움이 되었으면 합니다.
 
-## Before
+## Previous
 '수식없이 RNN 식구들 소개하기(LSTM, GRU, DRNN) 2장' 에는 GRU의 조상인 LSTM에 대한 설명이 있습니다.  
-go to -> [Before](https://akfmdl.github.io//ai_lstm_history){: .btn}
+go to -> [Previous](https://akfmdl.github.io//ai_lstm_history){: .btn}
