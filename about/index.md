@@ -7,13 +7,13 @@ comments: false
 ---
     
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
-<center><b>Goeun Kim</b> is a softare engineer in south korea.</center>
+<center><b>Goeun Kim</b> is a software engineer in south korea.</center>
 
 ## Careers
-* AI software(now)
+* AI software engineering(now)
 * AI frameworks : Pytorch, Tensorflow, Keras
 * AI Platforms : AWS, Luwig, Allegro
-* Automotive embedded software for 4 years in visual inspection system
+* Automotive embedded software for 4 years in developing visual inspection system
 * Programming languages : C++(main), C#, Python
 * Web : Flask, FastAPI
 * GUI : MFC(C++), WPF(C#)
