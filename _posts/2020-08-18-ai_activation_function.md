@@ -38,8 +38,13 @@ x1과 x2는 입력 신호, y는 출력 신호, w1과 w2는 가중치를 의미�
 <img src="https://t1.daumcdn.net/cfile/tistory/9966294E5D68A74632" width=200>  
 <img src="https://t1.daumcdn.net/cfile/tistory/99DD464A5D68A7C801" width=400>  
 
-3. ReLU 함수  
-* 식과 그래프로 보아도 굉장히 단순하며 시그모이드가 1과 0으로 갈수록 미분값이 0과 가까워지면서 발생하는 'Vanishing gradient 현상'을 해결하기 위한 활성화 함수입니다.  
+3. 하이퍼볼릭 탄젠트 (hyperbolic tangent function)  
+* 자연 상수 e가 지수 함수에 포함되어 분모에 들어가며 신경망 초기 모델에 많이 사용하던 활성화 함수입니다.  
+<img src="https://2.bp.blogspot.com/-SXYNhlGqQEQ/XCLb4Cs96yI/AAAAAAAAHTk/FuysW6D9BYoZakysxqaDeeYlZoXbx1VDwCLcBGAs/s200/%25EA%25B7%25B8%25EB%25A6%25BC1.PNG" width=200>  
+<img src="https://4.bp.blogspot.com/-dXCUDfaZVdY/XCLhRU3TN5I/AAAAAAAAHTw/Hfnr9OGK6d4A2-8KP53V9c8jazG1zwYgACLcBGAs/s640/%25EC%25BA%25A1%25EC%25B2%2598.PNG" width=400>  
+
+4. ReLU 함수  
+* 식과 그래프로 보아도 굉장히 단순하며 시그모이드나 하이퍼볼릭 탄젠트 함수가 특정 값에 가까워질수록 미분값이 0으로 소실 되버리는 'Vanishing gradient 현상'을 해결하기 위한 활성화 함수입니다.  
   * Vanishing gradient 현상 : [RNN의 탄생](https://akfmdl.github.io//ai_rnn_history) 참고
 <img src="https://t1.daumcdn.net/cfile/tistory/998B464C5D68A8EB36" width=200>  
 <img src="https://t1.daumcdn.net/cfile/tistory/99CA3C4F5D68A90C02" width=400>  
@@ -72,6 +77,7 @@ https://leedakyeong.tistory.com/entry/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84
 https://leedakyeong.tistory.com/entry/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8D%BC%EC%85%89%ED%8A%B8%EB%A1%A0%EC%9D%B4%EB%9E%80-What-is-perceptron  
 https://m.blog.naver.com/PostView.nhn?blogId=worb1605&logNo=221187949828&proxyReferer=https:%2F%2Fwww.google.com%2F  
 https://sacko.tistory.com/17  
+http://cbjsena.blogspot.com/2018/  
 
 
 ## Previous
