@@ -57,5 +57,5 @@ https://hyeonnii.tistory.com/228
 https://kolikim.tistory.com/36
 
 ## Previous
-이전 강의에서는 경사 하강법에 대해 설명해드렸습니다.  
+경사 하강법  
 go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent ){: .btn}
