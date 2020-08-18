@@ -51,7 +51,3 @@ https://medium.com/@john_analyst/%ED%9A%8C%EA%B7%80-regression-%EB%9E%80-398c548
 ## Previous
 이전 강의에서는 경사 하강법에 대해 설명해드렸습니다.  
 go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent ){: .btn}
-
-## Next
-다음 강의에서는 손실 함수에 대해 설명해드리겠습니다.  
-go to -> [Next](https://akfmdl.github.io//ai_lost_function ){: .btn}
