@@ -49,5 +49,9 @@ comments: true
 https://medium.com/@john_analyst/%ED%9A%8C%EA%B7%80-regression-%EB%9E%80-398c548e1560
 
 ## Previous
-경사 하강법  
+딥러닝과 경사 하강법  
 go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent ){: .btn}
+
+## Next
+로지스틱 회귀
+go to -> [Next]](https://akfmdl.github.io//ai_logistic_regression){: .btn}

@@ -20,7 +20,7 @@ comments: true
 3. 그런데 여기서 오차를 이전 오차값 대비 현재 오차값의 변화량으로 계산한다.
 4. 경사하강법은 이러한 변화량(기울기)을 사용하여 모델을 조금씩 조정(=학습)한다.
 
-이 두가지 사실을 통해 우리가 얻을 수 있는 것은 경사하강법은 딥러닝이 알고리즘은 알아서 수식을 찾아주기 위한 하나의 방법이며, 오차값의 변화량을 통해 모델을 학습시킨다는 것입니다.
+위 사실들을 통해 우리가 얻을 수 있는 것은 경사하강법은 딥러닝이 알고리즘은 알아서 수식을 찾아주기 위한 하나의 방법이며, 오차값의 변화량을 통해 모델을 학습시킨다는 것입니다.
 
 ## 손실 함수
 위에서 복습했던 것 중 계속 나오는 단어인 '오차값'
@@ -57,5 +57,9 @@ https://hyeonnii.tistory.com/228
 https://kolikim.tistory.com/36
 
 ## Previous
-경사 하강법  
-go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent ){: .btn}
+딥러닝과 경사 하강법  
+go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent){: .btn}
+
+## Next
+활성화 함수  
+go to -> [Next](https://akfmdl.github.io//ai_activation_function){: .btn}

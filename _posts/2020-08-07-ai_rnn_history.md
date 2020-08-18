@@ -27,7 +27,7 @@ comments: true
 </figure>
 
 ## RNN의 단점
-RNN 덕분에 sequential data를 처리할수 있게 되었습니다. 그런데 RNN에는 치명적 단점이 있었는데 그것은 바로 <b>'Vanishing gradient problem'</b> 이었습니다. target값과 예측값의 오류를 줄이는 방향으로 가중치를 업데이트 해주는 backpropagation을 진행하다보면 기울기가 0으로 수렴되어 버리는 현상입니다. 그럼 현재 모델의 성능이 좋든 나쁘든 더 이상 학습이 무의미해지겠죠.
+RNN 덕분에 sequential data를 처리할수 있게 되었습니다. 그런데 RNN에는 치명적 단점이 있었는데 그것은 바로 <b>'Vanishing gradient problem'</b> 이었습니다. Target값과 예측값의 오류를 줄이는 방향으로 가중치를 업데이트 해주는 backpropagation을 진행하다보면 기울기가 0으로 수렴되어 버리는 현상입니다. 그럼 현재 모델의 성능이 좋든 나쁘든 더 이상 학습이 무의미해지겠죠.
 
 <figure>
 	<img src="https://user-images.githubusercontent.com/31917080/89615731-2852ee00-d8c2-11ea-8cd5-c70f4b8c9cad.PNG">
