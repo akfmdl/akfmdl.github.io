@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[딥러닝 입문] 04. 선형 회귀와 경사 하강법의 관계"
+title:  "[딥러닝 입문] 선형 회귀와 경사 하강법의 관계"
 date:   2020-08-14
 excerpt: "Linear regression"
 feature: https://miro.medium.com/max/640/1*nbgt8RgzHPengnq6igs3aQ.png

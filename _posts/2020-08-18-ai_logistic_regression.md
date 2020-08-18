@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[딥러닝 입문] 05. 로지스틱 회귀"
+title:  "[딥러닝 입문] 로지스틱 회귀"
 date:   2020-08-18
 excerpt: "Logistic regression"
 feature: https://mblogthumb-phinf.pstatic.net/MjAxODA1MjdfMjI3/MDAxNTI3MzU2OTE4NTQw.Vo_z9kQAYu_U5NUAX8Jeb4K_RvEF9tANme2Afq4Ft6Mg.eZShGvApNJMNWgfQ3i3SHr2duGOkFGpMCuaGaSLyRD0g.PNG.lyshyn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2018-05-27_%EC%98%A4%EC%A0%84_2.47.18.png?type=w2

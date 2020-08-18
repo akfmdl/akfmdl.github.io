@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[딥러닝 입문] 03. 활성화 함수"
+title:  "[딥러닝 입문] 활성화 함수"
 date:   2020-08-18
 excerpt: "Activation function"
 feature: https://t1.daumcdn.net/cfile/tistory/991F2F425D68AA4E01

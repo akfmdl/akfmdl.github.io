@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[딥러닝 입문] 02. 손실 함수와 경사 하강법의 관계"
+title:  "[딥러닝 입문] 손실 함수와 경사 하강법의 관계"
 date:   2020-08-18
 excerpt: "Lost function"
 feature: https://t1.daumcdn.net/cfile/tistory/99384F355A928B1C06
