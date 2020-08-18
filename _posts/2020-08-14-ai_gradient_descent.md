@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[딥러닝 입문] 딥러닝과 경사 하강법"
+title:  "[딥러닝 입문] 01. 딥러닝과 경사 하강법"
 date:   2020-08-10
 excerpt: "Gradient descent"
 feature: https://t1.daumcdn.net/cfile/tistory/992C04455C98401410
