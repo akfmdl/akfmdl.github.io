@@ -85,9 +85,10 @@ Train data set에서 Validation set으로 나누니 train할 data가 부족해�
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile27.uf.tistory.com%2Fimage%2F9916854E5AC0B61D220CD3" width=500>
 
-1. 각각의 Fold의 시도에서 기록된 Error를 바탕(에러들의 평균)으로 최적의 모델(조건)을 찾는다
-2. 해당 모델(조건)을 바탕으로 전체 Training set의 학습을 진행한다
-3. 해당 모델을 처음에 분할하였던 Test set을 활용하여 평가한다
+1. k개의 검증 세트로 k번 성능을 평가한 후 계산된 성능의 평균을 내어 최종 성능을 계산
+2. 1번에서 계산된 것을 바탕으로 최적의 모델(조건)을 찾는다
+3. 해당 모델(조건)을 바탕으로 전체 Training set의 학습을 진행한다
+4. 해당 모델을 처음에 분할하였던 Test set을 활용하여 평가한다
 
 이렇게 K 겹으로 나누어 K번 검증을 하면 1번 검증하는 것을 K번이나 검증할 수 있으므로 데이터가 부족해도 Validation을 할 수 있고 믿을 만한 검증을 할 수 있다는 것입니다.  
 하지만 그냥 Training set / Test set 을 통해 진행하는 일반적인 학습법에 비해 시간 소요가 크다는 단점이 있습니다.
