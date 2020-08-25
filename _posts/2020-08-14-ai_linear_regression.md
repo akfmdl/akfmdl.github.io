@@ -54,4 +54,4 @@ go to -> [Previous](https://akfmdl.github.io//ai_gradient_descent ){: .btn}
 
 ## Next
 로지스틱 회귀
-go to -> [Next]](https://akfmdl.github.io//ai_logistic_regression){: .btn}
+go to -> [Next](https://akfmdl.github.io//ai_logistic_regression){: .btn}

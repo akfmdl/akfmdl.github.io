@@ -69,4 +69,4 @@ https://tech.dslab.kr/2019/09/27/doitdeeplearning-ch1/
 go to -> [Next](https://akfmdl.github.io//ai_linear_regression){: .btn}
 
 손실 함수와 경사 하강법의 관계  
-go to -> [Next](https://akfmdl.github.io//ai_lost_function ){: .btn}
+go to -> [Next](https://akfmdl.github.io//ai_lost_function){: .btn}
