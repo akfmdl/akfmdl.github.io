@@ -9,7 +9,7 @@ tag:
 comments: true
 ---
 
-<b>'Lost function'</b> 손실 함수.  
+## <b>'Lost function'</b> 손실 함수.  
 * 정의 : 예상한 값과 실제 타깃값의 차이를 함수로 정의한 것
 
 위의 정의를 이해하기 위해 [이전 포스트](https://akfmdl.github.io//ai_gradient_descent)를 다시 한번 복습해볼까요?

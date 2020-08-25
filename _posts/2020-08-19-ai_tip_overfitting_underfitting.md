@@ -10,7 +10,6 @@ comments: true
 ---
 
 > 모델과 학습에 대한 개념이 안 잡히신 분들은 [딥러닝과 경사 하강법](https://akfmdl.github.io//ai_gradient_descent)를 참고하시기 바랍니다.
-
 ## Overfitting, Underfitting 개념
 * 정의 : 기계 학습(machine learning)에서 학습 데이타를 과하게 학습(overfitting)하는 것
 

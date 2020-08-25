@@ -9,7 +9,7 @@ tag:
 comments: true
 ---
 
-<b>'Logistic regression'</b> 로지스틱 회귀.  
+## <b>'Logistic regression'</b> 로지스틱 회귀.  
 * 정의 : 독립 변수의 선형 결합을 이용하여 사건의 발생 가능성을 예측하는데 사용되는 통계 기법이다.(from 위키백과)
 
 지난 포스트에서 공부한 선형 회귀의 정의와 많이 다른가요?
