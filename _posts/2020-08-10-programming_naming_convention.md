@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[프로그래머] 네이밍 컨벤션(feat. 변수명 잘짓기)"
+title:  "[프로그래밍] 네이밍 컨벤션(feat. 변수명 잘짓기)"
 date:   2020-08-10
 excerpt: "Naming convention for programmers"
 feature: https://github.com/amueller/word_cloud/raw/master/examples/parrot_new.png
