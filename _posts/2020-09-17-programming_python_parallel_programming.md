@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[프로그래밍] 파이썬의 특징과 병렬 프로그래밍 with GIL"
+title:  "파이썬의 특징과 병렬 프로그래밍 with GIL"
 date:   2020-09-17
 excerpt: "python parallel programming"
 feature: https://miro.medium.com/max/700/1*7E8FmqFW488FASvN0nNcdQ.png
