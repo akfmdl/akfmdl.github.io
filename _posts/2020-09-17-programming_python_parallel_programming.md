@@ -27,10 +27,10 @@ Python은 언어의 한 종류 일뿐, Python 언어를 바이트 언어로 해�
 * PyPy : 파이썬으로 구현된 파이썬. 아예 JIT 컴파일러를 사용해서 파이썬을 처음부터 다시 구현했다고 합니다. 왜 이런 짓을 했을까요? 기존 Cpython의 단점을 보완하여 성능을 높이기 위함이라고 합니다.
 <img src="https://user-images.githubusercontent.com/31917080/93556412-a58a7c00-f9b3-11ea-95a5-e49f57fd15cf.png">
 
-### 사이썬의 특징
+### Cython의 특징
 사이썬은 파이썬 코드를 C언어로 컴파일을 하는 특성을 갖고 있습니다. 이를 통해 같은 매트릭스 크기의 연산시 C와 같은 수행 성능을 낸다는 연구결과도 있습니다.
 또한 설치가 쉽습니다.
-<img src="https://user-images.githubusercontent.com/31917080/93556435-b1763e00-f9b3-11ea-85bb-3d1e6838c6d2.png">
+![image](https://user-images.githubusercontent.com/31917080/93732672-52136a80-fc0d-11ea-8629-3561b7668d89.png)
 
 ### pypy의 특징
 앞에서 설명해드린 Cython에 크게 밀리지 않을 정도로 속도가 빠른 파이썬 구현체인 pypy은 역시 setup이 쉽고 기존 Cpython 코드와 높은 호환성을 갖고 있기 때문에 기존 Python을 이용해서 코드를 짜신 분들이 쉽게 입문할 수 있습니다. 그래서 pypy를 먼저 사용해 속도를 비교한뒤 Cython을 적용하는 것을 추천하는 분도 있습니다.  
