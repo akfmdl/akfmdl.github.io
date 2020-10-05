@@ -15,7 +15,8 @@ comments: true
 1. Python 구현체 종류
 2. GIL(Global Interpreter Lock)이란?
 3. GIL의 필요성
-4. Python 병렬 프로그래밍 방법  
+4. Python 병렬 프로그래밍 방법
+
 ---------
 
 ## Python 구현체 종류
