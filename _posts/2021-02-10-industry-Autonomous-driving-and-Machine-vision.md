@@ -8,7 +8,7 @@ tag:
 - INDUSTRY
 comments: true
 ---
-<iframe width="560" height="315" src="https://youtu.be/g-6z3TEvHY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g-6z3TEvHY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 본 포스트는 위 동영상을 글로 요약한 버전입니다. 그리고 이 영상은 제 <a href="https://www.youtube.com/channel/UCNdk6BMd8bTtCpngkBxA4ow"><b>Youtube</b></a>에 있는 강의입니다.
 
