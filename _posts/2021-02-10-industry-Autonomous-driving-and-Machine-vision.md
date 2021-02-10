@@ -5,7 +5,7 @@ date:   2021-02-10
 excerpt: "Autonomous-driving-and-machine-vision"
 feature: https://user-images.githubusercontent.com/31917080/107525598-58c16f00-6bfa-11eb-9647-025a6c5782e7.PNG
 tag:
-- AI
+- INDUSTRY
 comments: true
 ---
 <iframe width="560" height="315" src="https://youtu.be/g-6z3TEvHY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
