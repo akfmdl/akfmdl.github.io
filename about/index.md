@@ -12,11 +12,10 @@ comments: false
 ## Careers
 * AI software engineering(now)
 * AI frameworks : Pytorch, Tensorflow, Keras
-* AI Platforms : AWS, Luwig, Allegro
 * Automotive embedded software for 4 years in developing visual inspection system
-* Programming languages : C++(main), C#, Python
-* Web : Flask, FastAPI
-* GUI : MFC(C++), WPF(C#)
+* Programming languages : C++(MFC), C#(WPF, Winform), Python
+* Backend : Django
+* DB : MySQL
 * Major : Electric engineering
 
 ## Preview
