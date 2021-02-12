@@ -86,12 +86,11 @@ customer.setName("mike");
 if (paycheck.isPosted())...
 ```
 * 생성자(Constructor)를 중복정의(overload)할 때는 정적 팩토리 메서드를 사용한다. 메서드는 인수를 설명하는 이름을 사용한다.
-
 ```
-# 좋은 예
+좋은 예
 Complex fulcrumPoint = Complex.FromRealNumber(23.0);
 
-# 나쁜 예
+나쁜 예
 Complex fulcrumPoint = new Complex(23.0);
 ```
 
