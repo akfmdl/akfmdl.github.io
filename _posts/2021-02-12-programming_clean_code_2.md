@@ -86,6 +86,7 @@ customer.setName("mike");
 if (paycheck.isPosted())...
 ```
 * 생성자(Constructor)를 중복정의(overload)할 때는 정적 팩토리 메서드를 사용한다. 메서드는 인수를 설명하는 이름을 사용한다.
+
 ```
 # 좋은 예
 Complex fulcrumPoint = Complex.FromRealNumber(23.0);
@@ -93,6 +94,7 @@ Complex fulcrumPoint = Complex.FromRealNumber(23.0);
 # 나쁜 예
 Complex fulcrumPoint = new Complex(23.0);
 ```
+
 * 생성자 사용을 제한하려면 해당 생성자를 private으로 선언한다
 
 ## 기발한 이름보단 명료한 이름
