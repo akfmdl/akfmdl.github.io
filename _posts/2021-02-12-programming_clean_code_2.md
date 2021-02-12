@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[클린 코드 리뷰] 의미 있는 이름(2장)"
+title:  "[클린 코드 리뷰] 의미 있는 이름 2장"
 date:   2021-02-12
 excerpt: "clean code"
 feature: https://media.vlpt.us/images/jwkim/post/9a8598d3-44c6-419d-b509-069370dd5c7e/%EA%B7%B8%EB%A6%BC3.png
@@ -119,7 +119,7 @@ accountAddress와 customerAddress는 Address 클래스 인스턴스로는 좋은
 
 
 ## Previous
-'[클린 코드 리뷰] 깨끗한 코드(1장)' -> [Next](https://akfmdl.github.io//programming_clean_code_1/){: .btn}
+'[클린 코드 리뷰] 깨끗한 코드 1장' -> [Next](https://akfmdl.github.io//programming_clean_code_1/){: .btn}
 
 ## Next
-'[클린 코드 리뷰] 함수(3장)' -> [Next](https://akfmdl.github.io//programming_clean_code_3/){: .btn}
+'[클린 코드 리뷰] 함수 3장' -> [Next](https://akfmdl.github.io//programming_clean_code_3/){: .btn}
