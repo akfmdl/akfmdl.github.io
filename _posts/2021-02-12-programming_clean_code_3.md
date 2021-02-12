@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[클린 코드 리뷰] 함수(3장)"
+title:  "[클린 코드 리뷰] 함수 3장"
 date:   2021-02-12
 excerpt: "clean code"
 feature: https://media.vlpt.us/images/jwkim/post/9a8598d3-44c6-419d-b509-069370dd5c7e/%EA%B7%B8%EB%A6%BC3.png
@@ -187,7 +187,7 @@ public enum Error {
 
 
 ## Previous
-'[클린 코드 리뷰] 의미 있는 이름(2장)' -> [Next](https://akfmdl.github.io//programming_clean_code_2/){: .btn}
+'[클린 코드 리뷰] 의미 있는 이름 2장' -> [Next](https://akfmdl.github.io//programming_clean_code_2/){: .btn}
 
 ## Next
-'[클린 코드 리뷰] 주석(4장)' -> [Next](https://akfmdl.github.io//programming_clean_code_4/){: .btn}
+'[클린 코드 리뷰] 주석 4장' -> [Next](https://akfmdl.github.io//programming_clean_code_4/){: .btn}
