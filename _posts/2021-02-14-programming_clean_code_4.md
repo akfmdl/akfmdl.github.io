@@ -115,7 +115,6 @@ if (employee.isEligibleForFullBenefits())
 
   } // catch
   ```
-
 * 공로를 돌리거나 저자를 표시하는 주석
   * 아래와 같은 정보는 소스 코드 관리 시스템에 저장하는 편이 좋다
   ```
