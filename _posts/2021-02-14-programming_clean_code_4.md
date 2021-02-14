@@ -107,14 +107,14 @@ if (employee.isEligibleForFullBenefits())
 ```
 * 닫는 괄호에 다는 주석
   * 꼭 주석을 달아야 겠다는 생각이 들면 함수를 줄이려 시도하자
-```
-try {
-  ...
-} // try
-catch {
+  ```
+  try {
+    ...
+  } // try
+  catch {
 
-} // catch
-```
+  } // catch
+  ```
 
 * 공로를 돌리거나 저자를 표시하는 주석
   * 아래와 같은 정보는 소스 코드 관리 시스템에 저장하는 편이 좋다
