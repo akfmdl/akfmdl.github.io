@@ -107,6 +107,7 @@ if (employee.isEligibleForFullBenefits())
   ```
 * 닫는 괄호에 다는 주석
   * 꼭 주석을 달아야 겠다는 생각이 들면 함수를 줄이려 시도하자
+  
   ```
     try {
       ...
