@@ -1,0 +1,160 @@
+---
+layout: post
+title:  "[클린 코드 리뷰] 형식 맞추기 5장"
+date:   2021-02-25
+excerpt: "clean code"
+feature: https://media.vlpt.us/images/jwkim/post/9a8598d3-44c6-419d-b509-069370dd5c7e/%EA%B7%B8%EB%A6%BC3.png
+tag:
+- PROGRAMMING
+comments: true
+---
+
+로버트 C.마틴의 클린 코드를 읽고 정리한 포스트입니다.
+
+## 형식을 맞추려는 목적
+* 코드 형식은 의사소통의 일환이다
+* 돌아만 가는 코드는 No
+* 오늘 구현한 기능이 다음 버전에서 바뀔 확률은 아주 높다
+* 맨 처음 잡아놓은 구현 스타일과 가독성 수준은 유지보수 용이성과 확장성에 계속 영향을 미친다
+
+## 적절한 행 길이를 유지하라
+큰 파일보다 작은 파일이 이해하기 쉽다.
+* 신문 기사처럼 작성하라
+  * 독자는 위에서 아래로 기사를 읽으며, 아래로 내려갈수록 세세한 내용이 나온다
+  * 이름은 간단하면서도 설명이 가능하게 짓는다
+  * 이름만 보고도 올바른 모듈을 살펴보고 있는지 아닌지를 판단할 정도로 신경 써서 짓는다
+  * 소스 파일 첫 부분은 고차원 개념과 알고리즘을 설명한다
+  * 아래로 내려갈수록 세세하게 묘사한다
+  * 대다수 신문 기사들이 아주 짧은 걸 기억하자
+* 개념은 빈 행으로 분리하라
+  * 각 행은 수식이나 절을 나타내고, 일련의 행 묶음은 완결된 생각 하나를 표현한다
+  * 생각 사이는 빈 행을 넣어 분리해라
+* 세로 밀집도
+  * 줄바꿈이 개념을 분리한다면 세로 밀집도는 연관성을 의미한다
+  * 서로 밀접한 코드 행은 세로로 가까이 놓여야 한다
+* 수직 거리
+  * 잘못된 예
+    * 함수 연관 관계와 동작 방식을 이해하려고 이 함수에서 저 함수로, 소스파일을 위아래로 뒤짐
+    * 함수나 변수가 정의된 코드를 찾으려 상속 관계를 줄줄이 거술러 올라감
+  * 서로 밀접한 개념은 한 파일에 세로로 가까이 둬야 한다
+  * 변수 선언
+    * 변수는 사용하는 위치에 최대한 가까이 선언한다
+    * 짧은 함수의 지역 변수를 각 함수 맨 처음에 선언한다
+    * 아주 긴 함수에서는 블록 상단이나 루프 직전에 변수를 선언하기도 한다
+  * 인스턴스 변수 선언
+    * 클래스 맨 처음에 선언한다
+    * 변수 간에 세로로 거리를 두지 않는다
+    * 잘 알려진 위치에 인스턴스 변수를 모아야 한다
+    * 누구든 변수 선언을 어디서 찾을지 모두가 알고 있어야 한다
+  * 종속 함수
+    * 한 함수가 다른 함수를 호출한다면 두 함수는 세로로 가까이 배치한다
+    * 가능하다면 호출하는 함수를 호출되는 함수보다 먼저 배치한다
+  * 개념 유사성
+    * 친화도가 높을수록 코드를 가까이 배치한다
+    * 아래와 같은 예 외에도 명명법이 똑같고 기본 기능이 유사하면 가까이 배치
+      * 한 함수가 다른 함수를 호출해 생기는 종속성, 변수와 그 변수를 사용하는 함수
+      * 아래 예시는 개념적인 친화도가 매우 높다
+      * 서로가 서로를 호출하는 관계는 부차적인 요인이다
+      * 종속적인 관계가 없더라도 가까이 배치할 함수들이다
+      ```
+      public class Assert {
+        static public void assertTrue(String message, boolean condition) {
+          if (!condition)
+            fail(message);
+        }
+
+        static public void assertTrue(boolean condition) {
+          assertTrue(null, condition);
+        }
+
+        static public void assertFalse(String message, boolean condition) {
+          assertTrue(null, !condition);
+        }
+
+        static public void assertFalse(boolean condition) {
+          assertTrue(null, condition);
+        }
+      }
+      ```
+  * 세로 순서
+    * 호출되는 함수를 호출하는 함수보다 나중에 배치한다
+      * 그러면 소스 코드 모듈이 고차원에서 저차원으로 자연스럼게 내려간다
+    * 신문 기사와 마찬가지로 가장 중요한 개념을 가장 먼저 표현한다
+      * 가장 중요한 개념을 표현할 때는 세세한 사항을 최대한 배제한다
+    * 세세한 사항은 가장 마지막에 표현한다
+      * 그러면 독자가 소스 파일에서 첫 함수 몇 개만 읽어도 개념을 파악하기 쉬워진다
+
+## 가로 형식 맞추기
+프로그래머는 일반적으로 짧은 행을 선호한다. 120자 정도로 행 길이를 제한하는 것을 추천한다.
+* 가로 공백과 밀집도
+  * 승수 사이에 공백을 최소화하자
+  * 승수 사이는 공백이 없다
+  * 덧셈과 뺄셈은 우선순위가 곱셈보다 낮기 때문이다
+  ```
+  ... (-b + Math.sqrt(determinant)) / (2*a);
+  ... b*b -4*a*c;
+  ```
+* 가로 정렬
+  * 아래와 같이 선언부의 변수 이름이나 할당문의 오른쪽 피연산자를 나란히 정렬할 필요는 없다
+  * 코드가 엉뚱한 부분을 강조해 진짜 의도가 가려지기 때문이다
+  ```
+  private    Socket         socket;
+  private    InputStream    socket;
+  private    OutputStream   socket;
+  private    Request        socket;
+  private    Response       socket;
+  ```
+  * 정렬이 필요할 정도로 목록이 길다면 문제는 목록 길이지 정렬 부족이 아니다
+  * 선언부가 길다면 선언부만 따로 클래스로 쪼개야 한다
+  ```
+  public class FitnessExpediter implements ResponseSender
+  {
+    private Socket socket;
+    private InputStream socket;
+    private OutputStream socket;
+    private Request socket;
+    private Response socket;
+  }
+
+  public FitnessExpediter(Socket s, FitNessContext context) throws Exception
+  {
+    this.context = context;
+    socket = s;
+    input = s.getInputSream();
+    output = s.getOutputSream();
+    requestParsingTimeLimit = 10000;
+  }
+  ```
+* 들여쓰기
+  * 범위로 이뤄진 계층을 표현하기 위해 코드를 들여쓴다
+  * 클래스 정의처럼 파일 수준인 문장은 들여쓰지 않는다
+  * 클래스 내 메서드는 클래스보다 한 수준 들여쓴다
+* 들여쓰기 무시하기
+  * 때로는 간단한 if문, 짧은 while문, 짧은 함수에서 들여쓰기 규칙을 무시하고픈 유혹이 생긴다
+  * 하지만 이럴때마다 원점으로 돌아가 들여쓰기를 넣자
+  ```
+  나쁜 예
+  public CommentWidget(ParentWidget parent, String text){super(parent, text);}
+  public String render() throws Exception {return "";}
+
+  좋은 예
+  public CommentWidget(ParentWidget parent, String text){
+    super(parent, text);
+  }
+  public String render() throws Exception {
+    return "";
+  }
+  ```
+## 팀 규칙
+프로그래머라면 각자 선호하는 규칙이 있다. 하지만 팀에 속한다면 자신이 선호해야 할 규칙은 바로 팀 규칙이다.
+온 갖 스타일을 뒤섞어 소스 코드를 필요 이상으로 복잡하게 만드는 실수는 반드시 피한다.
+
+
+---
+
+
+## Previous
+'[클린 코드 리뷰] 주석 4장' -> [Next](https://akfmdl.github.io//programming_clean_code_4/){: .btn}
+
+## Next
+'[클린 코드 리뷰] 객체와 자료 구조 6장' -> [Next](https://akfmdl.github.io//programming_clean_code_6/){: .btn}
