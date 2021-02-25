@@ -139,13 +139,13 @@ comments: true
   ```
   // 좋은 예
   public CommentWidget(ParentWidget parent, String text){
-    super(parent, text);
+      super(parent, text);
   }
   public String render() throws Exception {
-    return "";
+      return "";
   }
   ```
-  
+
 ## 팀 규칙
 프로그래머라면 각자 선호하는 규칙이 있다. 하지만 팀에 속한다면 자신이 선호해야 할 규칙은 바로 팀 규칙이다.
 온 갖 스타일을 뒤섞어 소스 코드를 필요 이상으로 복잡하게 만드는 실수는 반드시 피한다.
