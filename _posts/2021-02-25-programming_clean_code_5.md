@@ -133,11 +133,11 @@ comments: true
   * 때로는 간단한 if문, 짧은 while문, 짧은 함수에서 들여쓰기 규칙을 무시하고픈 유혹이 생긴다
   * 하지만 이럴때마다 원점으로 돌아가 들여쓰기를 넣자
   ```
-  나쁜 예
+  // 나쁜 예
   public CommentWidget(ParentWidget parent, String text){super(parent, text);}
   public String render() throws Exception {return "";}
 
-  좋은 예
+  // 좋은 예
   public CommentWidget(ParentWidget parent, String text){
     super(parent, text);
   }
