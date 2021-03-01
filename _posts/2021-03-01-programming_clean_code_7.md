@@ -190,6 +190,7 @@ public void registerItem(Item item) {
 메서드에서 null을 반환하고픈 유혹이 든다면 그 대신 예외를 던지거나 특수 사례 객체를 반환한다. 외부 API가 null을 반환한다면 감싸기 메서드를 구현해 예외를 던지거나 특수 사례 객체를 반환하는 방식을 고려한다.
 
 * 특수 사례 객체를 반환하는 방식의 예
+
 null 반환을 허용하는 리스트를 사용하는 나쁜 예
 
 ```
@@ -222,7 +223,7 @@ public List<Employee> getEmployees() {
 if (variable != null)
 혹은
 assert variable != null : "variable should not be null";
-``
+```
 
 ---
 
