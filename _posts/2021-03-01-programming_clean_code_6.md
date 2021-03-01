@@ -18,14 +18,14 @@ comments: true
 * 구체적인 Vehicle 클래스 : 두 함수가 변수값을 읽어 반환할 뿐이라는 사실이 드러난다.
 ```
 public interface Vehicle {
-  double getFuelTankCapacityInGallons();
-  double getGallonsOfGasoline();
+     double getFuelTankCapacityInGallons();
+     double getGallonsOfGasoline();
 }
 ```
 * 추상적인 Vehicle 클래스 : 정보가 어디서 오는지 전혀 드러나지 않는다.
 ```
 public interface Vehicle {
-  double getPercentFuelRamaining();
+     double getPercentFuelRamaining();
 }
 ```
 이렇듯, 인터페이스나 조회/설정 함수만으로는 추상화가 이뤄지지 않는다. 객체가 포함하는 자료를 표현할 가장 좋은 방법을 심각하게 고민해야 한다.
@@ -33,6 +33,7 @@ public interface Vehicle {
 ## 절차적인 코드 VS 객체지향 코드
 두 종류의 코드는 서로 상호 보완적인 특질이 있다. 만약 아래 두 코드에 둘레 길이를 구하는 perimenter() 라는 함수를 추가한다고 했을 때, 각각은 아래와 같이 장단점이 있다.
 * 절차적인 코드 : 기존 자료 구조를 변경하지 않으면서 새 함수를 추가하기 쉽다. 반면, 새로운 자료 구조를 추가하기 어렵다. 그러려면 모든 함수를 고쳐야 한다.
+
 ```
 public class Square {
   ...
@@ -64,7 +65,9 @@ public class Geometry {
   }
 }
 ```
+
 * 객체 지향적인 코드 : 기존 함수를 변경하지 않으면서 새 클래스를 추가하기 쉽다. 반면, 새로운 함수를 추가하기 어렵다. 그러러면 모든 클래스를 고쳐야 한다.
+
 ```
 public class Square implements Shape {
   ...
@@ -87,6 +90,7 @@ public class Circle implements Shape {
   }
 }
 ```
+
 결국, 모든 함수를 고치냐(절차적인 코드) VS 모든 클래스를 고치냐(객체 지향 코드)의 문제가 된다. 객체 지향 코드에서 어려운 변경은 절차적인 코드에서 쉬우며, 절차적인 코드에서 어려운 변경은 객체 지향 코드에서 쉽다.
 
 * 클래스와 객체 지향 기법
@@ -98,16 +102,19 @@ public class Circle implements Shape {
 
 ## 디미터 법칙
 모듈은 자신이 조작하는 개체의 속사정을 몰라야 한다는 법칙이다. 객체에서 허용된 메서드가 반환하는 객체의 메서드는 호출하면 안된다. 예를 들어, 아래와 같이 기차 충돌을 하면 안된다.
+
 ```
 # 임시 디렉토리의 절대 경로를 얻는 코드임
 String outputDir = ctxt.getOptions().getScratchDir().getAbsolutePath();
 ```
+
 위와 같은 코드는 일반적으로 조잡하다 여겨지는 방식이므로 피하는 것이 좋다. 따라서, 아래와 같이 나누는 편이 좋다.
 ```
 Options opts = ctxt.getOptions();
 File scratchDir = opts.getScratchDir();
 final String outputDir = scratchDir.getAbsolutePath();
 ```
+
 하지만, 이 역시도 ctxt 객체가 Options를 포함하며, 그 것이 ScratchDir를, 그리고 그것이 AbsolutePath를 포함한다는 사실을 안다. 함수 하나가 아는 지식이 굉장히 많다. 구조에 따라 디미터 법칙은 위반하는 지 알 수 있다.
 * ctxt, Options, ScratchDir가 객체라면 : 내부 구조를 숨겨야 하므로 디미터 법칙을 위반
 * ctxt, Options, ScratchDir가 자료 구조라면 : 내부 구조를 노출시켜야 하므로 디미터 법칙을 위반하지 않음
